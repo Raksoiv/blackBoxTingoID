@@ -1,0 +1,42 @@
+[
+    {
+        "model": "casino.ticket",
+        "pk": 1,
+        "fields": {
+            "fecha_exp": "2017-09-20",
+            "estado": "valido",
+            "costo": 2000,
+            "detalle": "Ticket de almuerzo"
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 2,
+        "fields": {
+            "fecha_exp": "2017-09-25",
+            "estado": "usado",
+            "costo": 3000,
+            "detalle": "Ticket de almuerzo"
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 3,
+        "fields": {
+            "fecha_exp": "2017-09-30",
+            "estado": "cancelado",
+            "costo": 2500,
+            "detalle": "Ticket de almuerzo"
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 4,
+        "fields": {
+            "fecha_exp": "2017-10-10",
+            "estado": "valido",
+            "costo": 1600,
+            "detalle": "Ticket de almuerzo"
+        }
+    }
+]
