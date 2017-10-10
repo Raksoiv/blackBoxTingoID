@@ -1,38 +1,37 @@
 import json
-import blackbox.settings as settings
-from .models import Ticket
+from .models import *
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 
+
 # Create your views here.
-
-
 @csrf_exempt
-def login(request):
+def detalle(request):
     if request.method == 'POST':
         json_data = json.loads(request.body.decode('utf-8'))
-        if json_data['user'] == 'TingoID' and json_data['password'] == '1234':
-            json_data = {'token': '12345678'}
-        else:
-            json_data = {'error': 'nombre usuario/password incorrecta'}
-    else:
-        json_data = {'error': 'El metodo debe ser POST'}
-    return HttpResponse(json.dumps(json_data), content_type='application/json')
-
-
-@csrf_exempt
-def check(request):
-
-    if request.method == 'POST':
-        json_data = json.loads(request.body.decode('utf-8'))
-        ticket = Ticket.objects.get(pk=json_data['codigoEntradaText'])
+        id_ticket = json_data['id_ticket']
+        ticket = Ticket.objects.filter(id_ticket=id_ticket).get()[0]
         response_data = {
-            'idRegistro': ticket.id,
-            'fecha_exp': str(ticket.fecha_exp),
-            'estado': ticket.estado,
-            'costo': ticket.costo,
-            'detalle': ticket.detalle,
-            'empresa': settings.NOMBRE_EMPRESA
+            'fecha_emision': ticket.fecha_emision.isoformat(),
+            'fecha_expiracion': ticket.fecha_expiracion.isoformat(),
+            'valido': bool(ticket.valido),
+        }
+    else:
+        response_data = {
+            'error': 'El metodo debe ser POST'
+        }
+
+    return HttpResponse(json.dumps(response_data), content_type="application/json")
+
+
+@csrf_exempt
+def discount(request):
+    if request.method == 'POST':
+        json_data = json.loads(request.body.decode('utf8'))
+        id_ticket = json_data['id_ticket']
+        ticket = Ticket.objects.filter(id_ticket=id_ticket).get()[0]
+        response_data = {
+            'discount': bool(ticket.valido)
         }
     else:
         response_data = {
