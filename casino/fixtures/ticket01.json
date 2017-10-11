@@ -6,7 +6,9 @@
           "fecha_emision": "2017-09-09",
           "fecha_expiracion": "2017-12-12",
           "valido": "True",
-          "id_ticket": 1
+          "id_ticket": 1,
+          "tipo": "Almuerzo Completo",
+          "valor": 2500
         }
     },
     {
@@ -16,7 +18,9 @@
           "fecha_emision": "2017-09-09",
           "fecha_expiracion": "2017-12-12",
           "valido": "True",
-          "id_ticket": 2
+          "id_ticket": 2,
+          "tipo": "Almuerzo Simple",
+          "valido":2000
         }
     },
     {
@@ -26,7 +30,9 @@
           "fecha_emision": "2017-09-09",
           "fecha_expiracion": "2017-12-12",
           "valido": "True",
-          "id_ticket": 3
+          "id_ticket": 3,
+          "tipo": "Colacion",
+          "valor":2300
         }
     },
     {
@@ -36,7 +42,9 @@
           "fecha_emision": "2017-09-09",
           "fecha_expiracion": "2017-12-12",
           "valido": "True",
-          "id_ticket": 4
+          "id_ticket": 4,
+          "tipo":"Colacion",
+          "valor": 2300
         }
     }
 ]
