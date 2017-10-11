@@ -4,7 +4,7 @@ from django.db import models
 
 
 class Ticket(models.Model):
-    fecha_emision = models.DateField()
+    fecha_emision = models.DateField(null=True)
     fecha_expiracion = models.DateField()
     valido = models.BooleanField()
     id_ticket = models.PositiveIntegerField()

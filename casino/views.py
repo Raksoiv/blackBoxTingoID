@@ -10,7 +10,7 @@ def detalle(request):
     if request.method == 'POST':
         json_data = json.loads(request.body.decode('utf-8'))
         id_ticket = json_data['id_ticket']
-        ticket = Ticket.objects.filter(id_ticket=id_ticket).get()[0]
+        ticket = Ticket.objects.filter(id_ticket=id_ticket).get()
         response_data = {
             'fecha_emision': ticket.fecha_emision.isoformat(),
             'fecha_expiracion': ticket.fecha_expiracion.isoformat(),
