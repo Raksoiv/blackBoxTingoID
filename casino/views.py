@@ -2,6 +2,7 @@ import json
 from .models import *
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
+from django.core.exceptions import ObjectDoesNotExist
 
 
 # Create your views here.
@@ -10,16 +11,24 @@ def detalle(request):
     if request.method == 'POST':
         json_data = json.loads(request.body.decode('utf-8'))
         id_ticket = json_data['id_ticket']
-        ticket = Ticket.objects.filter(id_ticket=id_ticket).get()
-        response_data = {
-            'fecha_emision': ticket.fecha_emision.isoformat(),
-            'fecha_expiracion': ticket.fecha_expiracion.isoformat(),
-            'valido': bool(ticket.valido),
-        }
-    else:
-        response_data = {
-            'error': 'El metodo debe ser POST'
-        }
+        try:
+            print(id_ticket)
+            ticket = Ticket.objects.get(id_ticket=id_ticket)
+            print(ticket)
+            response_data = {
+                'encontrado': 'True',
+                'fecha_emision': ticket.fecha_emision.isoformat(),
+                'fecha_expiracion': ticket.fecha_expiracion.isoformat(),
+                'valido': bool(ticket.valido),
+                'tipo': char(ticket.tipo),
+                'valor': int(ticket.valor),
+            }
+        except ObjectDoesNotExist:
+            response_data = {
+            'encontrado':'False',
+            'error': 'El ticket no existe'
+            }
+
 
     return HttpResponse(json.dumps(response_data), content_type="application/json")
 
@@ -29,13 +38,22 @@ def discount(request):
     if request.method == 'POST':
         json_data = json.loads(request.body.decode('utf8'))
         id_ticket = json_data['id_ticket']
-        ticket = Ticket.objects.filter(id_ticket=id_ticket).get()[0]
-        response_data = {
-            'discount': bool(ticket.valido)
-        }
-    else:
-        response_data = {
-            'error': 'El metodo debe ser POST'
-        }
+        try:
+            ticket = Ticket.objects.get(id_ticket=id_ticket)
+            if (bool(ticket.valido)):
+                ticket.valido = False
+                ticket.save()
+
+            response_data = {
+                'discount': bool(ticket.valido),
+                'encontrado':'True'
+            }
+
+
+        except ObjectDoesNotExist:
+             response_data = {
+                'encontrado':'False',
+                'error': 'El ticket no existe'
+            }
 
     return HttpResponse(json.dumps(response_data), content_type="application/json")
