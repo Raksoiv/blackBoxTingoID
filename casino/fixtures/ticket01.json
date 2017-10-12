@@ -3,40 +3,48 @@
         "model": "casino.ticket",
         "pk": 1,
         "fields": {
-            "fecha_exp": "2017-09-20",
-            "estado": "valido",
-            "costo": 2000,
-            "detalle": "Ticket de almuerzo"
+          "fecha_emision": "2017-09-09",
+          "fecha_expiracion": "2017-12-12",
+          "valido": "True",
+          "id_ticket": 1,
+          "tipo": "Almuerzo Completo",
+          "valor": 2500
         }
     },
     {
         "model": "casino.ticket",
         "pk": 2,
         "fields": {
-            "fecha_exp": "2017-09-25",
-            "estado": "usado",
-            "costo": 3000,
-            "detalle": "Ticket de almuerzo"
+          "fecha_emision": "2017-09-09",
+          "fecha_expiracion": "2017-12-12",
+          "valido": "True",
+          "id_ticket": 2,
+          "tipo": "Almuerzo Simple",
+          "valido":2000
         }
     },
     {
         "model": "casino.ticket",
         "pk": 3,
         "fields": {
-            "fecha_exp": "2017-09-30",
-            "estado": "cancelado",
-            "costo": 2500,
-            "detalle": "Ticket de almuerzo"
+          "fecha_emision": "2017-09-09",
+          "fecha_expiracion": "2017-12-12",
+          "valido": "True",
+          "id_ticket": 3,
+          "tipo": "Colacion",
+          "valor":2300
         }
     },
     {
         "model": "casino.ticket",
         "pk": 4,
         "fields": {
-            "fecha_exp": "2017-10-10",
-            "estado": "valido",
-            "costo": 1600,
-            "detalle": "Ticket de almuerzo"
+          "fecha_emision": "2017-09-09",
+          "fecha_expiracion": "2017-12-12",
+          "valido": "True",
+          "id_ticket": 4,
+          "tipo":"Colacion",
+          "valor": 2300
         }
     }
 ]
