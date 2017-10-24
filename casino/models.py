@@ -11,4 +11,16 @@ class Ticket(models.Model):
     tipo = models.CharField(max_length = 20, default = "")
     valor = models.PositiveIntegerField(default = 0)
 
+class Promocion(models.Model):
+	fecha_expiracion =models.DateField()
+	fecha_emision = models.DateField()
+	meta = models.CharField(max_length=100)
+	descripcion = models.CharField(max_length=500)
+	imagen = models.BinaryField(blank = True, default = None, null= True)
+
+class Codigo_Promocion(models.Model):
+	codigo = models.CharField(max_length=100)
+	promocion = models.ForeignKey('Promocion')
+	
+
 
