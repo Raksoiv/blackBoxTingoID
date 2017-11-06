@@ -27,12 +27,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '192.168.1.114',
-    '10.11.22.178',
+    '10.11.5.193',
     '10.6.43.201',
     'localhost',
     '10.6.43.201',
     '192.168.0.17',
-    '10.6.43.138',
+    '10.6.0.17',
     '10.11.20.132'
 ]
 
@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'casino',
+    'fixture_media',
+    'feria',
 ]
 
 MIDDLEWARE = [
@@ -108,6 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
 
 
 # Internationalization
