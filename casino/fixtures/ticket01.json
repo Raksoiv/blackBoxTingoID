@@ -3,9 +3,9 @@
         "model": "casino.ticket",
         "pk": 1,
         "fields": {
-          "fecha_emision": "2017-09-09",
-          "fecha_expiracion": "2017-12-12",
-          "valido": "True",
+          "fecha_emision": "2017-01-08",
+          "fecha_expiracion": "2017-12-01",
+          "valido": "t",
           "id_ticket": 1,
           "tipo": "Almuerzo Completo",
           "valor": 2500
@@ -15,21 +15,21 @@
         "model": "casino.ticket",
         "pk": 2,
         "fields": {
-          "fecha_emision": "2017-09-09",
-          "fecha_expiracion": "2017-12-12",
-          "valido": "True",
+          "fecha_emision": "2017-02-10",
+          "fecha_expiracion": "2017-12-03",
+          "valido": "t",
           "id_ticket": 2,
           "tipo": "Almuerzo Simple",
-          "valido":2000
+          "valor":2000
         }
     },
     {
         "model": "casino.ticket",
         "pk": 3,
         "fields": {
-          "fecha_emision": "2017-09-09",
-          "fecha_expiracion": "2017-12-12",
-          "valido": "True",
+         "fecha_emision": "2017-02-09",
+         "fecha_expiracion": "2017-12-07",
+          "valido": "t",
           "id_ticket": 3,
           "tipo": "Colacion",
           "valor":2300
@@ -39,12 +39,2086 @@
         "model": "casino.ticket",
         "pk": 4,
         "fields": {
-          "fecha_emision": "2017-09-09",
-          "fecha_expiracion": "2017-12-12",
-          "valido": "True",
+          "fecha_emision": "2017-04-07",
+          "fecha_expiracion": "2017-11-18",
+          "valido": "t",
           "id_ticket": 4,
           "tipo":"Colacion",
           "valor": 2300
         }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 5,
+        "fields": {
+          "fecha_emision": "2017-07-10",
+          "fecha_expiracion": "2017-12-23",
+          "valido": "t",
+          "id_ticket": 5,
+          "tipo":"Almuerzo Simple",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 6,
+        "fields": {
+          "fecha_emision": "2017-03-11",
+          "fecha_expiracion": "2017-12-13",
+          "valido": "t",
+          "id_ticket": 6,
+          "tipo":"Almuerzo Completo",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 7,
+        "fields": {
+          "fecha_emision": "2017-05-22",
+          "fecha_expiracion": "2017-11-23",
+          "valido": "t",
+          "id_ticket": 7,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 8,
+        "fields": {
+          "fecha_emision": "2017-09-10",
+          "fecha_expiracion": "2017-12-06",
+          "valido": "t",
+          "id_ticket": 8,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 9,
+        "fields": {
+          "fecha_emision": "2017-01-17",
+          "fecha_expiracion": "2018-01-15",
+          "valido": "t",
+          "id_ticket": 9,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 10,
+        "fields": {
+          "fecha_emision": "2017-06-15",
+          "fecha_expiracion": "2017-12-29",
+          "valido": "t",
+          "id_ticket": 10,
+          "tipo":"Almuerzo Completo",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 11,
+        "fields": {
+          "fecha_emision": "2017-03-01",
+          "fecha_expiracion": "2018-01-13",
+          "valido": "t",
+          "id_ticket": 11,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 12,
+        "fields": {
+          "fecha_emision": "2017-10-15",
+          "fecha_expiracion": "2018-01-20",
+          "valido": "t",
+          "id_ticket": 12,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 13,
+        "fields": {
+          "fecha_emision": "2017-08-11",
+          "fecha_expiracion": "2017-12-10",
+          "valido": "t",
+          "id_ticket": 13,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 14,
+        "fields": {
+          "fecha_emision": "2017-07-11",
+          "fecha_expiracion": "2017-12-07",
+          "valido": "t",
+          "id_ticket": 14,
+          "tipo":"Almuerzo Completo",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 15,
+        "fields": {
+          "fecha_emision": "2017-03-07",
+          "fecha_expiracion": "2017-12-17",
+          "valido": "t",
+          "id_ticket": 15,
+          "tipo":"Almuerzo Completo",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 20,
+        "fields": {
+          "fecha_emision": "2017-03-12",
+          "fecha_expiracion": "2017-10-03",
+          "valido": "f",
+          "id_ticket": 20,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 21,
+        "fields": {
+          "fecha_emision": "2017-08-06",
+          "fecha_expiracion": "2017-10-19",
+          "valido": "f",
+          "id_ticket": 21,
+          "tipo":"Almuerzo Completo",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 22,
+        "fields": {
+          "fecha_emision": "2017-01-22",
+          "fecha_expiracion": "2017-09-01",
+          "valido": "f",
+          "id_ticket": 22,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 23,
+        "fields": {
+          "fecha_emision": "2017-04-20",
+          "fecha_expiracion": "2017-10-13",
+          "valido": "f",
+          "id_ticket": 23,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 24,
+        "fields": {
+          "fecha_emision": "2017-09-23",
+          "fecha_expiracion": "2017-10-16",
+          "valido": "f",
+          "id_ticket": 24,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 25,
+        "fields": {
+          "fecha_emision": "2017-02-01",
+          "fecha_expiracion": "2017-08-17",
+          "valido": "f",
+          "id_ticket": 25,
+          "tipo":"Almuerzo Completo",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 26,
+        "fields": {
+        "fecha_emision": "2017-04-17",
+        "fecha_expiracion": "2017-12-01",
+          "valido": "f",
+          "id_ticket": 26,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 27,
+        "fields": {
+        "fecha_emision": "2017-08-10",
+        "fecha_expiracion": "2017-12-04",
+          "valido": "f",
+          "id_ticket": 27,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 28,
+        "fields": {
+        "fecha_emision": "2017-09-17",
+        "fecha_expiracion": "2017-12-22",
+          "valido": "f",
+          "id_ticket": 28,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 29,
+        "fields": {
+          "fecha_emision": "2017-09-12",
+          "fecha_expiracion": "2017-12-09",
+          "valido": "f",
+          "id_ticket": 29,
+          "tipo":"Almuerzo Completo",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 30,
+        "fields": {
+          "fecha_emision": "2017-07-21",
+          "fecha_expiracion": "2017-12-21",
+          "valido": "f",
+          "id_ticket": 30,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 40,
+        "fields": {
+          "fecha_emision": "2017-02-19",
+          "fecha_expiracion": "2018-01-21",
+          "valido": "t",
+          "id_ticket": 40,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 41,
+        "fields": {
+          "fecha_emision": "2017-01-12",
+          "fecha_expiracion": "2018-01-17",
+          "valido": "t",
+          "id_ticket": 41,
+          "tipo":"Almuerzo Completo",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 42,
+        "fields": {
+          "fecha_emision": "2017-05-15",
+          "fecha_expiracion": "2018-02-01",
+          "valido": "t",
+          "id_ticket": 42,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 43,
+        "fields": {
+          "fecha_emision": "2017-04-11",
+          "fecha_expiracion": "2018-01-07",
+          "valido": "t",
+          "id_ticket": 43,
+          "tipo":"Almuerzo Completo",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 44,
+        "fields": {
+          "fecha_emision": "2017-03-20",
+          "fecha_expiracion": "2018-02-10",
+          "valido": "t",
+          "id_ticket": 44,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 45,
+        "fields": {
+          "fecha_emision": "2017-01-27",
+          "fecha_expiracion": "2018-01-07",
+          "valido": "t",
+          "id_ticket": 45,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 46,
+        "fields": {
+          "fecha_emision": "2017-09-29",
+          "fecha_expiracion": "2018-01-18",
+          "valido": "t",
+          "id_ticket": 46,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 47,
+        "fields": {
+          "fecha_emision": "2017-10-26",
+          "fecha_expiracion": "2018-01-11",
+          "valido": "t",
+          "id_ticket": 47,
+          "tipo":"Almuerzo Completo",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 48,
+        "fields": {
+          "fecha_emision": "2017-07-21",
+          "fecha_expiracion": "2018-01-15",
+          "valido": "t",
+          "id_ticket": 48,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 49,
+        "fields": {
+          "fecha_emision": "2017-05-16",
+          "fecha_expiracion": "2018-01-19",
+          "valido": "t",
+          "id_ticket": 49,
+          "tipo":"Almuerzo Completo",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 50,
+        "fields": {
+          "fecha_emision": "2017-02-12",
+          "fecha_expiracion": "2018-01-23",
+          "valido": "t",
+          "id_ticket": 50,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 51,
+        "fields": {
+          "fecha_emision": "2017-10-30",
+          "fecha_expiracion": "2018-01-13",
+          "valido": "t",
+          "id_ticket": 51,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 52,
+        "fields": {
+          "fecha_emision": "2017-10-01",
+          "fecha_expiracion": "2018-02-01",
+          "valido": "t",
+          "id_ticket": 52,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 53,
+        "fields": {
+          "fecha_emision": "2017-09-26",
+          "fecha_expiracion": "2018-01-10",
+          "valido": "t",
+          "id_ticket": 53,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 54,
+        "fields": {
+          "fecha_emision": "2017-09-21",
+          "fecha_expiracion": "2018-01-09",
+          "valido": "t",
+          "id_ticket": 54,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },    
+    {
+        "model": "casino.ticket",
+        "pk": 55,
+        "fields": {
+          "fecha_emision": "2017-02-10",
+          "fecha_expiracion": "2017-12-30",
+          "valido": "f",
+          "id_ticket": 55,
+          "tipo": "Almuerzo Simple",
+          "valor":2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 56,
+        "fields": {
+          "fecha_emision": "2017-02-20",
+          "fecha_expiracion": "2018-01-21",
+          "valido": "t",
+          "id_ticket": 56,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 57,
+        "fields": {
+          "fecha_emision": "2017-02-27",
+          "fecha_expiracion": "2018-01-14",
+          "valido": "t",
+          "id_ticket": 57,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 58,
+        "fields": {
+          "fecha_emision": "2017-02-25",
+          "fecha_expiracion": "2018-01-01",
+          "valido": "t",
+          "id_ticket": 58,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 59,
+        "fields": {
+          "fecha_emision": "2017-02-25",
+          "fecha_expiracion": "2018-01-01",
+          "valido": "t",
+          "id_ticket": 59,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 60,
+        "fields": {
+          "fecha_emision": "2017-01-12",
+          "fecha_expiracion": "2018-01-18",
+          "valido": "t",
+          "id_ticket": 60,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+  "model": "casino.ticket",
+   "pk":150,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":150,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":151,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":151,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":152,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":152,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":153,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":153,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":154,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":154,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":155,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":155,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":156,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":156,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":157,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":157,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":158,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":158,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":159,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":159,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":160,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":160,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":161,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":161,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":162,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":162,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":163,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":163,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":164,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":164,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":165,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":165,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":166,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":166,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":167,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":167,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":168,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":168,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":169,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":169,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":170,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":170,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":171,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":171,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":172,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":172,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":173,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":173,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":174,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":174,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":175,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":175,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":176,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":176,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":177,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":177,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":178,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":178,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":179,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":179,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":180,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":180,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":181,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":181,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":182,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":182,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":183,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":183,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":184,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":184,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":185,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":185,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":186,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":186,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":187,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":187,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":188,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":188,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":189,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":189,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":190,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":190,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":191,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":191,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":192,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":192,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":193,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":193,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":194,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":194,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":195,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":195,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":196,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":196,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":197,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":197,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":198,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":198,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":199,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":199,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":200,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":200,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":201,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":201,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":202,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":202,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":203,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":203,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":204,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":204,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":205,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":205,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":206,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":206,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":207,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":207,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":208,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":208,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":209,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":209,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":210,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":210,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":211,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":211,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":212,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":212,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":213,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":213,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":214,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":214,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":215,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":215,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":216,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":216,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":217,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":217,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":218,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":218,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":219,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":219,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":220,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":220,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":221,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":221,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":222,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":222,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":223,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":223,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":224,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":224,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":225,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":225,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":226,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":226,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":227,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":227,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":228,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":228,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":229,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":229,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":230,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":230,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":231,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":231,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":232,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":232,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":233,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":233,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":234,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":234,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":235,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":235,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":236,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":236,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":237,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":237,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":238,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":238,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":239,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":239,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":240,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":240,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":241,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":241,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":242,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":242,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":243,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":243,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":244,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":244,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":245,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":245,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":246,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":246,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":247,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":247,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":248,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":248,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":249,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":249,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":250,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":250,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":251,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":251,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":252,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":252,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":253,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":253,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":254,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":254,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":255,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":255,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":256,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":256,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":257,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":257,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":258,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":258,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":259,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":259,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":260,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":260,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":261,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":261,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":262,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":262,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":263,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":263,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":264,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":264,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":265,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":265,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":266,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":266,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":267,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":267,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":268,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":268,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":269,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":269,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":270,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":270,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":271,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":271,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":272,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":272,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":273,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":273,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":274,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":274,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":275,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":275,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":276,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":276,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":277,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":277,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":278,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":278,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":279,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":279,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":280,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":280,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":281,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":281,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":282,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":282,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":283,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":283,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":284,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":284,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":285,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":285,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":286,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":286,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":287,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":287,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":288,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":288,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":289,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":289,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":290,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":290,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":291,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":291,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":292,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":292,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":293,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":293,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":294,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":294,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":295,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":295,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":296,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":296,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":297,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":297,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":298,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":298,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+{
+  "model": "casino.ticket",
+   "pk":299,
+  "fields": {
+    "fecha_emision": "2017-11-06",
+    "fecha_expiracion": "2017-11-12",
+    "valido": "t",
+    "id_ticket":299,
+    "tipo":"Helado Gratis en la Feria de Software!",
+    "valor": 0}},
+    {
+        "model": "casino.promocion",
+        "pk": 1,
+        "fields": {
+          "fecha_emision": "2017-02-10",
+          "fecha_expiracion": "2017-12-12",
+          "meta": "3",
+          "descripcion": "2x1 en postres",
+          "imagen":"/Users/Ignacio/Documents/blackBoxTingoID/casino/fixtures/media/images/postre.png"
+        }
+    },
+    {
+        "model": "casino.codigo_promocion",
+        "pk": 1,
+        "fields": {
+          "codigo":"SWEETCHOCO",
+          "promocion":1
+        }
+    },
+    {
+        "model": "casino.promocion",
+        "pk": 2,
+        "fields": {
+          "fecha_emision": "2017-10-10",
+          "fecha_expiracion": "2017-12-12",
+          "meta": "1",
+          "descripcion": "50% de descuento en jugos",
+          "imagen":"/Users/Ignacio/Documents/blackBoxTingoID/casino/fixtures/media/images/jugo.png"
+        }
+    },
+    {
+        "model": "casino.codigo_promocion",
+        "pk": 2,
+        "fields": {
+          "codigo":"COFFEE50",
+          "promocion":2
+        }
+    },
+    {
+        "model": "casino.promocion",
+        "pk": 3,
+        "fields": {
+          "fecha_emision": "2017-10-10",
+          "fecha_expiracion": "2017-10-15",
+          "meta": "1",
+          "descripcion": "20% de descuento en Almuerzo Simple",
+          "imagen":"/Users/Ignacio/Documents/blackBoxTingoID/casino/fixtures/media/images/almuerzo.png"
+        }
+    },
+    {
+        "model": "casino.codigo_promocion",
+        "pk": 3,
+        "fields": {
+          "codigo":"QW3TR24",
+          "promocion":3
+        }
     }
+
 ]

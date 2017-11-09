@@ -1,0 +1,624 @@
+[
+    {
+        "model": "casino.ticket",
+        "pk": 1,
+        "fields": {
+          "fecha_emision": "2017-01-08",
+          "fecha_expiracion": "2017-12-01",
+          "valido": "t",
+          "id_ticket": 1,
+          "tipo": "Almuerzo Completo",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 2,
+        "fields": {
+          "fecha_emision": "2017-02-10",
+          "fecha_expiracion": "2017-12-03",
+          "valido": "t",
+          "id_ticket": 2,
+          "tipo": "Almuerzo Simple",
+          "valor":2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 3,
+        "fields": {
+         "fecha_emision": "2017-02-09",
+         "fecha_expiracion": "2017-12-07",
+          "valido": "t",
+          "id_ticket": 3,
+          "tipo": "Colacion",
+          "valor":2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 4,
+        "fields": {
+          "fecha_emision": "2017-04-07",
+          "fecha_expiracion": "2017-11-18",
+          "valido": "t",
+          "id_ticket": 4,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 5,
+        "fields": {
+          "fecha_emision": "2017-07-10",
+          "fecha_expiracion": "2017-12-23",
+          "valido": "t",
+          "id_ticket": 5,
+          "tipo":"Almuerzo Simple",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 6,
+        "fields": {
+          "fecha_emision": "2017-03-11",
+          "fecha_expiracion": "2017-12-13",
+          "valido": "t",
+          "id_ticket": 6,
+          "tipo":"Almuerzo Completo",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 7,
+        "fields": {
+          "fecha_emision": "2017-05-22",
+          "fecha_expiracion": "2017-11-23",
+          "valido": "t",
+          "id_ticket": 7,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 8,
+        "fields": {
+          "fecha_emision": "2017-09-10",
+          "fecha_expiracion": "2017-12-06",
+          "valido": "t",
+          "id_ticket": 8,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 9,
+        "fields": {
+          "fecha_emision": "2017-01-17",
+          "fecha_expiracion": "2018-01-15",
+          "valido": "t",
+          "id_ticket": 9,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 10,
+        "fields": {
+          "fecha_emision": "2017-06-15",
+          "fecha_expiracion": "2017-12-29",
+          "valido": "t",
+          "id_ticket": 10,
+          "tipo":"Almuerzo Completo",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 11,
+        "fields": {
+          "fecha_emision": "2017-03-01",
+          "fecha_expiracion": "2018-01-13",
+          "valido": "t",
+          "id_ticket": 11,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 12,
+        "fields": {
+          "fecha_emision": "2017-10-15",
+          "fecha_expiracion": "2018-01-20",
+          "valido": "t",
+          "id_ticket": 12,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 13,
+        "fields": {
+          "fecha_emision": "2017-08-11",
+          "fecha_expiracion": "2017-12-10",
+          "valido": "t",
+          "id_ticket": 13,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 14,
+        "fields": {
+          "fecha_emision": "2017-07-11",
+          "fecha_expiracion": "2017-12-07",
+          "valido": "t",
+          "id_ticket": 14,
+          "tipo":"Almuerzo Completo",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 15,
+        "fields": {
+          "fecha_emision": "2017-03-07",
+          "fecha_expiracion": "2017-12-17",
+          "valido": "t",
+          "id_ticket": 15,
+          "tipo":"Almuerzo Completo",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 20,
+        "fields": {
+          "fecha_emision": "2017-03-12",
+          "fecha_expiracion": "2017-10-03",
+          "valido": "f",
+          "id_ticket": 20,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 21,
+        "fields": {
+          "fecha_emision": "2017-08-06",
+          "fecha_expiracion": "2017-10-19",
+          "valido": "f",
+          "id_ticket": 21,
+          "tipo":"Almuerzo Completo",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 22,
+        "fields": {
+          "fecha_emision": "2017-01-22",
+          "fecha_expiracion": "2017-09-01",
+          "valido": "f",
+          "id_ticket": 22,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 23,
+        "fields": {
+          "fecha_emision": "2017-04-20",
+          "fecha_expiracion": "2017-10-13",
+          "valido": "f",
+          "id_ticket": 23,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 24,
+        "fields": {
+          "fecha_emision": "2017-09-23",
+          "fecha_expiracion": "2017-10-16",
+          "valido": "f",
+          "id_ticket": 24,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 25,
+        "fields": {
+          "fecha_emision": "2017-02-01",
+          "fecha_expiracion": "2017-08-17",
+          "valido": "f",
+          "id_ticket": 25,
+          "tipo":"Almuerzo Completo",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 26,
+        "fields": {
+        "fecha_emision": "2017-04-17",
+        "fecha_expiracion": "2017-12-01",
+          "valido": "f",
+          "id_ticket": 26,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 27,
+        "fields": {
+        "fecha_emision": "2017-08-10",
+        "fecha_expiracion": "2017-12-04",
+          "valido": "f",
+          "id_ticket": 27,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 28,
+        "fields": {
+        "fecha_emision": "2017-09-17",
+        "fecha_expiracion": "2017-12-22",
+          "valido": "f",
+          "id_ticket": 28,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 29,
+        "fields": {
+          "fecha_emision": "2017-09-12",
+          "fecha_expiracion": "2017-12-09",
+          "valido": "f",
+          "id_ticket": 29,
+          "tipo":"Almuerzo Completo",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 30,
+        "fields": {
+          "fecha_emision": "2017-07-21",
+          "fecha_expiracion": "2017-12-21",
+          "valido": "f",
+          "id_ticket": 30,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 40,
+        "fields": {
+          "fecha_emision": "2017-02-19",
+          "fecha_expiracion": "2018-01-21",
+          "valido": "t",
+          "id_ticket": 40,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 41,
+        "fields": {
+          "fecha_emision": "2017-01-12",
+          "fecha_expiracion": "2018-01-17",
+          "valido": "t",
+          "id_ticket": 41,
+          "tipo":"Almuerzo Completo",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 42,
+        "fields": {
+          "fecha_emision": "2017-05-15",
+          "fecha_expiracion": "2018-02-01",
+          "valido": "t",
+          "id_ticket": 42,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 43,
+        "fields": {
+          "fecha_emision": "2017-04-11",
+          "fecha_expiracion": "2018-01-07",
+          "valido": "t",
+          "id_ticket": 43,
+          "tipo":"Almuerzo Completo",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 44,
+        "fields": {
+          "fecha_emision": "2017-03-20",
+          "fecha_expiracion": "2018-02-10",
+          "valido": "t",
+          "id_ticket": 44,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 45,
+        "fields": {
+          "fecha_emision": "2017-01-27",
+          "fecha_expiracion": "2018-01-07",
+          "valido": "t",
+          "id_ticket": 45,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 46,
+        "fields": {
+          "fecha_emision": "2017-09-29",
+          "fecha_expiracion": "2018-01-18",
+          "valido": "t",
+          "id_ticket": 46,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 47,
+        "fields": {
+          "fecha_emision": "2017-10-26",
+          "fecha_expiracion": "2018-01-11",
+          "valido": "t",
+          "id_ticket": 47,
+          "tipo":"Almuerzo Completo",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 48,
+        "fields": {
+          "fecha_emision": "2017-07-21",
+          "fecha_expiracion": "2018-01-15",
+          "valido": "t",
+          "id_ticket": 48,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 49,
+        "fields": {
+          "fecha_emision": "2017-05-16",
+          "fecha_expiracion": "2018-01-19",
+          "valido": "t",
+          "id_ticket": 49,
+          "tipo":"Almuerzo Completo",
+          "valor": 2500
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 50,
+        "fields": {
+          "fecha_emision": "2017-02-12",
+          "fecha_expiracion": "2018-01-23",
+          "valido": "t",
+          "id_ticket": 50,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 51,
+        "fields": {
+          "fecha_emision": "2017-10-30",
+          "fecha_expiracion": "2018-01-13",
+          "valido": "t",
+          "id_ticket": 51,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 52,
+        "fields": {
+          "fecha_emision": "2017-10-01",
+          "fecha_expiracion": "2018-02-01",
+          "valido": "t",
+          "id_ticket": 52,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 53,
+        "fields": {
+          "fecha_emision": "2017-09-26",
+          "fecha_expiracion": "2018-01-10",
+          "valido": "t",
+          "id_ticket": 53,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 54,
+        "fields": {
+          "fecha_emision": "2017-09-21",
+          "fecha_expiracion": "2018-01-09",
+          "valido": "t",
+          "id_ticket": 54,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },    
+    {
+        "model": "casino.ticket",
+        "pk": 55,
+        "fields": {
+          "fecha_emision": "2017-02-10",
+          "fecha_expiracion": "2017-12-30",
+          "valido": "f",
+          "id_ticket": 55,
+          "tipo": "Almuerzo Simple",
+          "valor":2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 56,
+        "fields": {
+          "fecha_emision": "2017-02-20",
+          "fecha_expiracion": "2018-01-21",
+          "valido": "t",
+          "id_ticket": 56,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 57,
+        "fields": {
+          "fecha_emision": "2017-02-27",
+          "fecha_expiracion": "2018-01-14",
+          "valido": "t",
+          "id_ticket": 57,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 58,
+        "fields": {
+          "fecha_emision": "2017-02-25",
+          "fecha_expiracion": "2018-01-01",
+          "valido": "t",
+          "id_ticket": 58,
+          "tipo":"Colacion",
+          "valor": 2300
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 59,
+        "fields": {
+          "fecha_emision": "2017-02-25",
+          "fecha_expiracion": "2018-01-01",
+          "valido": "t",
+          "id_ticket": 59,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+        "model": "casino.ticket",
+        "pk": 60,
+        "fields": {
+          "fecha_emision": "2017-01-12",
+          "fecha_expiracion": "2018-01-18",
+          "valido": "t",
+          "id_ticket": 60,
+          "tipo":"Almuerzo Simple",
+          "valor": 2000
+        }
+    },
+    {
+        "model": "casino.promocion",
+        "pk": 1,
+        "fields": {
+          "fecha_emision": "2017-02-10",
+          "fecha_expiracion": "2017-12-12",
+          "meta": "3",
+          "descripcion": "2x1 en postres",
+          "imagen":"/Users/Ignacio/Documents/blackBoxTingoID/casino/fixtures/media/images/postre.png"
+        }
+    },
+    {
+        "model": "casino.codigo_promocion",
+        "pk": 1,
+        "fields": {
+          "codigo":"SWEETCHOCO",
+          "promocion":1
+        }
+    },
+    {
+        "model": "casino.promocion",
+        "pk": 2,
+        "fields": {
+          "fecha_emision": "2017-10-10",
+          "fecha_expiracion": "2017-12-12",
+          "meta": "1",
+          "descripcion": "50% de descuento en jugos",
+          "imagen":"/Users/Ignacio/Documents/blackBoxTingoID/casino/fixtures/media/images/jugo.png"
+        }
+    },
+    {
+        "model": "casino.codigo_promocion",
+        "pk": 2,
+        "fields": {
+          "codigo":"COFFEE50",
+          "promocion":2
+        }
+    },
+    {
+        "model": "casino.promocion",
+        "pk": 3,
+        "fields": {
+          "fecha_emision": "2017-10-10",
+          "fecha_expiracion": "2017-10-15",
+          "meta": "1",
+          "descripcion": "20% de descuento en Almuerzo Simple",
+          "imagen":"/Users/Ignacio/Documents/blackBoxTingoID/casino/fixtures/media/images/almuerzo.png"
+        }
+    },
+    {
+        "model": "casino.codigo_promocion",
+        "pk": 3,
+        "fields": {
+          "codigo":"QW3TR24",
+          "promocion":3
+        }
+    }
+
+]
